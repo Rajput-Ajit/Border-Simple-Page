@@ -1,0 +1,197 @@
+<! DOCTYPE HTML>
+	<html>
+		<head>
+			<title>
+				Border Box
+			</title>
+			<link rel="stylesheet" href="border.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+			<style>
+				div p
+					{
+						font-size:18px;
+					}
+				
+				div > p
+					{color:orange;}
+					
+				div .group
+					{
+						Border-color:red;
+						color:#E3DEB7;
+					}
+					
+				div + .bottom
+					{
+						font-size:20px;
+						color:gray;
+					}
+					
+				.quad2
+	{
+		height:45%;
+		width:45%;
+		float:left;
+		margin:1%;
+		border:10px inset black;
+		animation-name:planes;
+		animation-duration:3s;
+		animation-fill-mode:forwards;
+		animation-timing-function:linear;
+	}
+@keyframes planes
+	{
+		from {opacity:0;}
+		to {opacity:1;}
+	
+	}	
+	
+.quad2:hover
+	{
+		height:45%;
+		width:45%;
+		float:left;
+		margin:1%;
+		border:10px outset black;
+	}	
+			</style>
+		</head>
+		<body>
+			<div class="navbar">
+				<div class="tag">
+					Home
+				</div>
+				<div class="tag">
+					Create
+					
+				</div>
+				<div class="tag">
+					Explore
+				</div>
+				<div class="search-bar">
+					<i class="fa-solid fa-magnifying-glass"></i>
+					Search For Images
+				</div>
+				<div class="tag">
+					<i class="fa-solid fa-circle-arrow-up"></i>
+					Upload
+				</div>
+				<div class="tag">
+					<i class="fa-solid fa-user"></i>
+					Account
+				</div>
+			</div>
+		
+			<div class="big-div">
+				<img src="image2.jpg" class="main-image">
+				<img src="image4.jpg" class="image1">
+				<img src="image1.jpg" class="image1">
+			</div>
+			<div class="big-div">
+				<img src="image12.jpg" class="main-image-right">
+				<img src="image11.jpg" class="image1">
+				<img src="image10.jpg" class="image1">
+			</div>
+			<div class="big-div">
+				<img src="image16.jpg" class="quad">
+				<img src="image13.jpg" class="quad">
+				<img src="image15.jpg" class="quad">
+				<img src="image14.jpg" class="quad">
+			</div>
+			<div class="big-div">
+				<img src="image18.jpg" class="quad2">
+				<img src="image19.jpg" class="quad2">
+				<img src="image20.jpg" class="quad2">
+				<img src="image21.jpg" class="quad2">
+			</div>
+			<div class="footer">
+				<div class="stock">
+					<h3>
+						Free Stock Photos Shared By Talented Creators
+					</h3>	
+					<div class="icon">
+						<i class="fa-brands fa-facebook"></i>
+					</div>
+					<div class="icon">
+						<i class="fa-brands fa-instagram"></i>
+					</div>
+					<div class="icon">
+						<i class="fa-brands fa-linkedin"></i>
+					</div>
+					<div class="icon">
+						<i class="fa-brands fa-twitter"></i>
+					</div>
+				</div>
+				<div class="photos">
+					<h3>
+						Photos
+					</h3>	
+					<p>
+						Free Stock Photos
+					</p>
+					<p>
+						Collection
+					</p>
+				</div>
+				<div class="stock">
+					<h3>
+						Company
+					</h3>
+					<p>
+						About
+					</p>
+					<p>
+						Blog
+					</p>
+					<p>
+						FAQ
+					</p>
+					<p>
+						Partner With Us
+					</p>
+					<b>	<p>
+							Sign Up
+						</p>
+					</b>	
+				</div>
+				<div class="stock">
+					<h3>
+						Free Stock Photos
+					</h3>
+						<div class="group">
+							Shree Ram Images
+						</div>
+						<div class="group">
+							Cool Wallpaper
+						</div>
+						<div class="group">
+							HD Wallpaper
+						</div>
+						<div class="group">
+							Supercar Wallpaper
+						</div>
+						<div class="group">
+							MSD Wallpaper
+						</div>
+				</div>
+				<div class="footer-footer">
+					<div class="bottom">
+						<i class="fa-solid fa-copyright"></i>
+						2024 Images
+					</div>
+					<div class="bottom">
+						Terms Of Uses
+					</div>
+					<div class="bottom">
+						Privacy Policy
+					</div>
+					<div class="bottom">
+						Licence
+					</div>
+					<div class="bottom">
+						Coockies Policy
+					</div>
+				</div>
+			</div>
+		</body>
+	</html>

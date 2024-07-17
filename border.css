@@ -1,0 +1,226 @@
+.navbar
+	{
+		height:7%;
+		width:94%;
+		
+		box-sizing:border-box;
+		padding:0.5%;
+		margin:3%;
+	}
+
+.tag
+	{
+		height:90%;
+		float:left;
+		font-size:18px;
+		box-sizing:border-box;
+		padding:0.4%;
+		margin-left:4%;
+		text-align:center;
+		border:1px solid black;
+		border-radius:10px;
+	}
+
+.tag:hover
+	{
+		height:90%;
+		float:left;
+		font-size:18px;
+		box-sizing:border-box;
+		padding:0.4%;
+		margin-left:4%;
+		text-align:center;
+		border:1px dotted black;
+		border-radius:10px;
+		background-color:black;
+		color:white;
+	}
+
+.search-bar
+	{
+		height:100%;
+		width:40%;
+		
+		float:left;
+		margin-left:4%;
+		text-align:center;
+		border:1px solid black;
+		border-radius:10px;
+		color:gray;
+		text-align:left;
+		padding:0.5%;
+		box-sizing:border-box;
+	}	
+	
+	
+	
+	
+.big-div
+	{
+		height:700px;
+		width:45%;
+		float:left;
+		margin:1%;
+		border-style:groove;
+		border-width:12px;
+		border-color:transparent;
+		transition:border-style 3s, border-color 5s, border-width 5s;
+		padding:0.5%;
+	}
+	
+.big-div:hover
+	{
+		height:700px;
+		width:45%;
+		float:left;
+		margin:1%;
+		border-style:solid;
+		border-width:12px;
+		border-color:orange;
+		padding:0.5%;
+	}	
+
+.main-image
+	{
+		height:98%;
+		width:62%;
+		float:right;
+		border:3px solid black;
+		padding:1%;
+		transition:border 1s;
+	}	
+		
+.main-image:hover
+	{
+		height:98%;
+		width:62%;
+		float:right;
+		border:5px groove red;
+		padding:0.5%;
+	}
+
+
+	
+.image1
+	{
+		height:48.8%;
+		width:33%;
+		float:right;
+		margin:0.5%;
+		border:3px solid black;
+		transition:border 1s;
+	}
+	
+.image1:hover
+	{
+		height:47%;
+		width:31%;
+		float:right;
+		margin:1%;
+		border:5px double red;
+	}	
+	
+	
+.main-image-right	
+	{
+		height:99%;
+		width:63%;
+		float:left;
+		border:3px outset black;
+		padding:0.5%;
+		transition:border 1s;
+	}	
+	
+.main-image-right:hover	
+	{
+		height:98%;
+		width:62%;
+		float:left;
+		border:5px groove red;
+		padding:0.5%;
+	}		
+	
+.quad
+	{
+		height:45%;
+		width:45%;
+		float:left;
+		margin:1%;
+		border:10px inset black;
+	}
+.quad:hover
+	{
+		height:45%;
+		width:45%;
+		float:left;
+		margin:1%;
+		border:10px outset black;
+	}
+
+
+.footer
+	{
+		height:500px;
+		width:97%;
+		margin:1%;
+		background-color:black;
+		color:white;
+		float:left;
+		box-sizing:border-box;
+		padding:3%;
+		
+	}	
+.icon
+	{
+		height:10%;
+		width:10%;
+		float:left;
+		margin:5%;
+	}
+	
+.stock
+	{
+		height:80%;
+		width:20%;
+		float:left;
+		font-size:25px;
+		
+		margin:2%;
+		text-align:center;
+	}
+.photos
+	{
+		height:80%;
+		width:20%;
+		margin:2%;
+		font-size:25px;
+		float:left;
+		text-align:center;
+	}
+	
+.group	
+	{
+		border:2px dotted white;
+		border-radius:10px ;
+		padding:1%;
+		font-size:18px;
+		margin:4%;
+	}
+
+.footer-footer
+	{
+		height:5%;
+		width:100%;
+		
+		float:left;
+		padding:2%;
+		
+	}	
+	
+.bottom
+
+	{
+		height:50%;
+		margin-right:10%;
+		float:left;
+	}
